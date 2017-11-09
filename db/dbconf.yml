@@ -1,0 +1,6 @@
+# env development using demo as database
+development:
+    import: bitbucket.org/liamstask/goose/lib/goose
+    driver: mysql
+    open: root:root@(:3306)/demo?charset=utf8&parseTime=True&loc=Local
+    dialect: mysql

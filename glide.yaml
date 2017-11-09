@@ -1,4 +1,4 @@
-package: github.com/bxcodec/go-clean-arch
+package: github.com/BambangSinaga/petstore
 import:
 - package: github.com/stretchr/testify
   version: v1.1.4
