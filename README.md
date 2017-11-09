@@ -1,6 +1,14 @@
 # petstore
 Build REST pet service using golang
 
+### Execute Migration
+```bash
+# install goose
+go get bitbucket.org/liamstask/goose/cmd/goose
+
+# up table pet
+goose -path="$GOPATH/src/github.com/BambangSinaga/petstore/db" up
+```
 
 ### How To Run This Project
 
