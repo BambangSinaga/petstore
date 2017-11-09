@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"net/url"
 
-	httpDeliver "petstore/pet/delivery/http"
-	petRepo "petstore/pet/repository/mysql"
-	petUcase "petstore/pet/usecase"
-	cfg "petstore/config/env"
-	"petstore/config/middleware"
+	httpDeliver "github.com/BambangSinaga/petstore/pet/delivery/http"
+	petRepo "github.com/BambangSinaga/petstore/pet/repository/mysql"
+	petUcase "github.com/BambangSinaga/petstore/pet/usecase"
+	cfg "github.com/BambangSinaga/petstore/config/env"
+	"github.com/BambangSinaga/petstore/config/middleware"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/labstack/echo"
 )
